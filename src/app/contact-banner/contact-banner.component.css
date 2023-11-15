@@ -1,0 +1,12 @@
+.center {
+    margin: auto;
+    width: 60%;
+    background-color: #140a82;
+    color: white;
+    padding: 10px;
+    
+  }
+
+p {
+    color: grey;
+}
