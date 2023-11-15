@@ -1,1 +1,12 @@
-<p>banner works!</p>
+<div class="banner">
+    <div class="text-section">
+        <h1>Test Text</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, fugit repellendus ex ab odit natus exercitationem blanditiis perspiciatis, magni, in inventore rerum! In et dolorem inventore alias repellat itaque sit?</p>
+        <button>Read More</button>
+    </div>
+    <div class="slideshow-container">
+        <div *ngFor="let image of images; let i = index" class="slide fade" [class.active]="i === currentSlide">
+            <img [src]="image" style="width: 100%;">
+        </div>
+    </div>
+</div>
