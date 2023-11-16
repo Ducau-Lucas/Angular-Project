@@ -10,6 +10,13 @@ import { ServicesComponent } from './services/services.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactBannerComponent } from './contact-banner/contact-banner.component';
 import { PartnersComponent } from './partners/partners.component';
+import { ProjetsComponent } from './projets/projets.component';
+import { StatsComponent } from './stats/stats.component';
+import { AccueilComponent } from './accueil/accueil.component';
+import { MissionsComponent } from './missions/missions.component';
+import { MetiersComponent } from './metiers/metiers.component';
+import { ContactPageComponent } from './contact-page/contact-page.component';
+import { AccueilCardsComponent } from './accueil-cards/accueil-cards.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +27,14 @@ import { PartnersComponent } from './partners/partners.component';
     ServicesComponent,
     FooterComponent,
     ContactBannerComponent,
-    PartnersComponent
+    PartnersComponent,
+    ProjetsComponent,
+    StatsComponent,
+    AccueilComponent,
+    MissionsComponent,
+    MetiersComponent,
+    ContactPageComponent,
+    AccueilCardsComponent
   ],
   imports: [
     BrowserModule,

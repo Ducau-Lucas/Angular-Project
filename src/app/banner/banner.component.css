@@ -1,7 +1,8 @@
 .banner {
     display: flex;
     margin: 0 auto;
-    width: 45%;
+    width: 75%;
+    
 }
 
 .text-section {
